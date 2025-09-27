@@ -15,7 +15,7 @@ MONGODB_URI=mongodb+srv://username:password@cluster0.mongodb.net/?retryWrites=tr
 Edit `vector_search.py` line 20 with your connection string:
 ```python
 'MONGODB_URI': os.getenv('MONGODB_URI', 
-    "mongodb+srv://dueprincipati:YOUR_PASSWORD@cluster0.lcobvz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"),
+    "mongodb+srv://username:password@cluster0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"),
 ```
 
 ## 🚨 Security Note
