@@ -8,7 +8,7 @@
 cp .env.example .env
 
 # Edit .env with your credentials
-MONGODB_URI=mongodb+srv://dueprincipati:AcernoErchie2!@cluster0.lcobvz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI=mongodb+srv://username:password@cluster0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 ### Method 2: Direct Configuration
